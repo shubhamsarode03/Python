@@ -34,6 +34,5 @@ print(initialize_dict(employees, defaults))
 def ini_dict(employees, defaults):
     my_dict = dict.fromkeys(employees, defaults)
     return my_dict
-
 print(ini_dict(employees, defaults))
 

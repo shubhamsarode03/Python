@@ -18,11 +18,11 @@ keys = ["name", "salary"]
 def create_dict(sample_dict, keys):
     my_dict = {}
     for k, v in sample_dict.items():
-        if k in keys:
+        if k in keys: # here we removed loop for list drectly check for inclusion 
             my_dict[k] = v
     return my_dict
 
-print(create_dict(sample_dict, keys))
+print(create_dict(sample_dict, keys))# we can improve efficiecy using set 
 
 
 
